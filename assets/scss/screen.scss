@@ -1,0 +1,145 @@
+@import "../../node_modules/include-media/dist/_include-media";
+$yellow: #FFB400;
+$blue: #009EDB;
+$dark: #000D19;
+
+@include media(">=tablet") {
+  #kpNavbarMain {
+    .col-md-12 {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+@include media("<tablet") {
+  #kpNavbarMain {
+    padding: 20px 0;
+    .navbar-header {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+  }
+  #kpNavbarMainCollapse {
+    padding: 0;
+    max-height: none;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0, .55) 70%, rgba(0, 0, 0, 0) 100%);
+    ul.nav {
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 60px;
+      padding-bottom: 100px;
+    }
+  }
+}
+
+#kpNavbarMain {
+  background: linear-gradient(rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .15) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+#hero-main {
+  background-image: linear-gradient(-223deg, #60C4E0 0%, #0377A3 55%, #011D32 100%);
+  background: url("../../assets/img/kredu-hero-hand-original.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  @include media("<tablet") {
+    max-height: 700px;
+  }
+  /* I have no idea why is this, I have to find out */
+  margin-top: -20px;
+
+  .overlay {
+    display: none;
+  }
+
+  @include media("<tablet") {
+    .overlay {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: $dark;
+      opacity: .4;
+      z-index: 0;
+    }
+  }
+
+  .container {
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    @include media("<tablet") {
+      flex-direction: column;
+      padding-top: 30%;
+      align-items: center;
+    }
+    &:before, &:after {
+      content: none;
+    }
+  }
+  .cta {
+    @include media("<tablet") {
+      margin-bottom: 15%;
+      text-align: center;
+      z-index: 1;
+      .button {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 48px;
+      font-weight: 400;
+      margin-bottom: 10%;
+    }
+    strong {
+      font-weight: 600;
+    }
+  }
+  .stamp {
+    @include media("<tablet") {
+      z-index: 1;
+      text-align: center;
+      img {
+        width: 75%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.yellow {
+  color: $yellow;
+}
+
+button.button {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 20px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  // &.yellow {
+    background-color: $yellow;
+    color: $dark;
+  // }
+}

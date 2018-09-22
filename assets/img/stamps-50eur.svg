@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="197px" viewBox="0 0 197 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>stamps-50eur</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kredu-example" transform="translate(-1093.000000, -413.000000)">
+            <g id="stamps-50eur" transform="translate(1095.000000, 415.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="3" fill-opacity="0.1" fill="#009EDB" stroke-linecap="round" stroke-linejoin="round" cx="96.5" cy="96.5" r="96.5"></circle>
+                <text id="Inkl.-50€-Startgutha" font-family="Dosis-Regular, Dosis" font-size="22" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="59.199" y="64">Inkl. </tspan>
+                    <tspan x="97.545" y="64" font-family="Dosis-SemiBold, Dosis" font-weight="500">50€ </tspan>
+                    <tspan x="33.096" y="92" font-family="Dosis-SemiBold, Dosis" font-weight="500">Startguthaben</tspan>
+                    <tspan x="159.904" y="92"> </tspan>
+                    <tspan x="28.476" y="120">auf Ihre virtuelle </tspan>
+                    <tspan x="47.649" y="148">Kreditkarte!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Harald Székely @ Vexcash AG - 2016-08-05 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="Slider-Handle-Hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+	<g id="Graphic-Container">
+		<ellipse id="Background" fill="#fff" cx="256" cy="255.9" rx="234" ry="233.9"/>
+		<path id="Outer-Ring" fill="#ffb400" d="M256,22.5c-129.2,0-234,104.7-234,233.8S126.8,490,256,490s234-104.7,234-233.8
+			S385.2,22.5,256,22.5z M256,427.1c-94.4,0-171-76.5-171-170.8c0-94.3,76.6-170.8,171-170.8c94.4,0,171,76.5,171,170.8
+			C427,350.6,350.4,427.1,256,427.1z"/>
+		<path id="Inner-Dot" fill="#009edb" d="M256,335c-43.6,0-79-35.4-79-79c0-43.6,35.4-79,79-79s79,35.4,79,79
+			C335,299.6,299.6,335,256,335z"/>
+	</g>
+</svg>
