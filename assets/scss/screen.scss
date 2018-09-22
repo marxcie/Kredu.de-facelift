@@ -57,7 +57,7 @@ $media-expressions: (
 }
 
 #hero-main {
-  4background-image: linear-gradient(-223deg, #60C4E0 0%, #0377A3 55%, #011D32 100%);
+  background-image: linear-gradient(-223deg, #60C4E0 0%, #0377A3 55%, #011D32 100%);
   background: url("../../assets/img/kredu-hero-hand.jpg");
   @include media ('handheld') {
     background: url("../../assets/img/kredu-hero-hand@05x.jpg");
